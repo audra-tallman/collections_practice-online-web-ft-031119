@@ -32,5 +32,5 @@ def sum_array(array)
 end
 #QUESTION 9
 def add_s(array)
-  array.join("s")
+  array.join("s, ")
 end

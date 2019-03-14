@@ -33,7 +33,7 @@ end
 #QUESTION 9
 def add_s(array)
   array.collect do |element|
-  if index != 1
+  if array[1]
   puts "#{element}s"
   else 
   puts element 

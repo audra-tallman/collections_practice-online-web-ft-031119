@@ -33,6 +33,8 @@ end
 #QUESTION 9
 def add_s(array)
   array. each_with_index.collect {|element, index|} 
-  if index == 1 puts element else element.join("s ")
+  if index == 1 
+  element 
+    else element.join("s ")
   end
 end
